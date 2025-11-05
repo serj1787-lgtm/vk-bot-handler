@@ -8,7 +8,7 @@ export default function handler(req, res) {
     
     if (body.type === 'confirmation') {
       console.log('Confirmation request for group:', body.group_id);
-      return res.status(200).send('74173fc9');
+      return res.status(200).send('7b80460f');
     }
     
     return res.status(200).send('ok');
